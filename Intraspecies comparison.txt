@@ -1,115 +1,119 @@
 $`Bensulide Oxon`
-            Df Sum Sq Mean Sq F value Pr(>F)
-AgeGroup     1  14364   14364  0.8781 0.3762
-Sex          1  52026   52026  3.1803 0.1124
-Ethnicity    2  28561   14281  0.8730 0.4540
-Residuals    8 130870   16359               
-
-$`Chorethoxyfos-oxon`
-            Df     Sum Sq    Mean Sq F value Pr(>F)
-AgeGroup     1 3.3488e+12 3.3488e+12  0.0592 0.8139
-Sex          1 1.4345e+12 1.4345e+12  0.0254 0.8774
-Ethnicity    2 4.4348e+13 2.2174e+13  0.3921 0.6880
-Residuals    8 4.5244e+14 5.6555e+13               
-
-$DDVP
-            Df     Sum Sq    Mean Sq F value Pr(>F)
-AgeGroup     1 2.9025e+12 2.9025e+12  0.6515 0.4429
-Sex          1 8.9209e+11 8.9209e+11  0.2002 0.6664
-Ethnicity    2 8.7035e+12 4.3518e+12  0.9768 0.4173
-Residuals    8 3.5642e+13 4.4552e+12               
-
-$Dicrotophos
-            Df  Sum Sq Mean Sq F value Pr(>F)
-AgeGroup     1  726757  726757  0.9368 0.3615
-Sex          1  406479  406479  0.5239 0.4898
-Ethnicity    2 2003897 1001949  1.2915 0.3265
-Residuals    8 6206543  775818               
-
-$ethoprop
-            Df  Sum Sq Mean Sq F value Pr(>F)
-AgeGroup     1     206     206  0.0016 0.9695
-Sex          1   41557   41557  0.3149 0.5900
-Ethnicity    2  245680  122840  0.9309 0.4330
-Residuals    8 1055615  131952               
-
-$fenamiphos
             Df Sum Sq Mean Sq F value  Pr(>F)  
-AgeGroup     1  47827   47827  0.8941 0.37206  
-Sex          1   2933    2933  0.0548 0.82073  
-Ethnicity    2 816300  408150  7.6297 0.01399 *
-Residuals    8 427957   53495                  
+AgeGroup     1  12053   12053  0.8285 0.38643  
+Sex          1  54470   54470  3.7442 0.08499 .
+Ethnicity    2  28503   14252  0.9796 0.41217  
+Residuals    9 130932   14548                  
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
+$`Chorethoxyfos-oxon`
+            Df     Sum Sq    Mean Sq F value Pr(>F)
+AgeGroup     1 5.4829e+12 5.4829e+12  0.1089 0.7490
+Sex          1 2.0155e+12 2.0155e+12  0.0400 0.8459
+Ethnicity    2 4.4369e+13 2.2184e+13  0.4405 0.6569
+Residuals    9 4.5331e+14 5.0367e+13               
+
+$DDVP
+            Df    Sum Sq   Mean Sq F value  Pr(>F)  
+AgeGroup     1  17292917  17292917  0.3437 0.57210  
+Sex          1    324811    324811  0.0065 0.93772  
+Ethnicity    2 578622002 289311001  5.7504 0.02461 *
+Residuals    9 452800270  50311141                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Dicrotophos
+            Df  Sum Sq Mean Sq F value Pr(>F)
+AgeGroup     1   93343   93343  0.0981 0.7613
+Sex          1  965486  965486  1.0145 0.3401
+Ethnicity    2 2177862 1088931  1.1443 0.3608
+Residuals    9 8564803  951645               
+
+$ethoprop
+            Df  Sum Sq Mean Sq F value Pr(>F)
+AgeGroup     1   15757   15757  0.1119 0.7456
+Sex          1   13168   13168  0.0935 0.7667
+Ethnicity    2  235595  117798  0.8366 0.4643
+Residuals    9 1267218  140802               
+
+$fenamiphos
+            Df  Sum Sq Mean Sq F value Pr(>F)
+AgeGroup     1     0.2    0.21  0.0001 0.9912
+Sex          1   827.6  827.61  0.5112 0.4928
+Ethnicity    2  5587.9 2793.93  1.7257 0.2321
+Residuals    9 14570.9 1618.99               
+
 $Malaoxon
-            Df     Sum Sq    Mean Sq F value Pr(>F)  
-AgeGroup     1 8.9604e+08 8.9604e+08  0.3067 0.5948  
-Sex          1 1.0950e+10 1.0950e+10  3.7480 0.0889 .
-Ethnicity    2 7.4742e+09 3.7371e+09  1.2792 0.3296  
-Residuals    8 2.3372e+10 2.9215e+09                 
+            Df     Sum Sq    Mean Sq F value  Pr(>F)  
+AgeGroup     1 3.4200e+07 3.4200e+07  0.0116 0.91666  
+Sex          1 1.3917e+10 1.3917e+10  4.7130 0.05802 .
+Ethnicity    2 7.1040e+09 3.5520e+09  1.2029 0.34438  
+Residuals    9 2.6576e+10 2.9529e+09                  
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Methamdidiphos
-            Df Sum Sq Mean Sq F value  Pr(>F)  
-AgeGroup     1  47827   47827  0.8941 0.37206  
-Sex          1   2933    2933  0.0548 0.82073  
-Ethnicity    2 816300  408150  7.6297 0.01399 *
-Residuals    8 427957   53495                  
+            Df Sum Sq Mean Sq F value   Pr(>F)   
+AgeGroup     1  44330   44330  0.9293 0.360220   
+Sex          1   1663    1663  0.0349 0.856028   
+Ethnicity    2 819831  409916  8.5936 0.008179 **
+Residuals    9 429303   47700                    
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Naled
             Df     Sum Sq    Mean Sq F value  Pr(>F)  
-AgeGroup     1 7.4329e+12 7.4329e+12  2.1971 0.17655  
-Sex          1 2.2066e+13 2.2066e+13  6.5224 0.03397 *
-Ethnicity    2 1.8449e+12 9.2243e+11  0.2727 0.76815  
-Residuals    8 2.7065e+13 3.3831e+12                  
+AgeGroup     1 3.4286e+10 3.4286e+10  0.0541 0.82123  
+Sex          1 2.5465e+12 2.5465e+12  4.0204 0.07593 .
+Ethnicity    2 6.8596e+11 3.4298e+11  0.5415 0.59971  
+Residuals    9 5.7006e+12 6.3340e+11                  
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Omethoate
             Df  Sum Sq Mean Sq F value Pr(>F)
-AgeGroup     1   34198   34198  0.0597 0.8131
-Sex          1  184185  184185  0.3216 0.5862
-Ethnicity    2  733721  366860  0.6406 0.5520
-Residuals    8 4581462  572683               
+AgeGroup     1   73042   73042  0.1412 0.7158
+Sex          1  140562  140562  0.2717 0.6148
+Ethnicity    2  752147  376074  0.7269 0.5097
+Residuals    9 4656076  517342               
 
 $`phorate oxon sulfone`
             Df     Sum Sq    Mean Sq F value Pr(>F)
-AgeGroup     1 2065943828 2065943828  2.6337 0.1433
-Sex          1 1004741807 1004741807  1.2809 0.2905
-Ethnicity    2 3244887801 1622443901  2.0683 0.1888
-Residuals    8 6275394672  784424334               
+AgeGroup     1 8.2797e+08  827971200  0.7373 0.4128
+Sex          1 3.7834e+08  378335252  0.3369 0.5759
+Ethnicity    2 3.2672e+09 1633617899  1.4547 0.2835
+Residuals    9 1.0107e+10 1122978306               
 
 $`phorate oxon sulfoxide`
             Df    Sum Sq  Mean Sq F value Pr(>F)
-AgeGroup     1   5051082  5051082  0.1392 0.7187
-Sex          1    977525   977525  0.0269 0.8737
-Ethnicity    2  16572674  8286337  0.2284 0.8008
-Residuals    8 290235688 36279461               
+AgeGroup     1  63825015 63825015  1.0139 0.3403
+Sex          1   5851688  5851688  0.0930 0.7674
+Ethnicity    2  11406003  5703001  0.0906 0.9142
+Residuals    9 566561530 62951281               
 
 $`Phosmet Oxon`
-            Df     Sum Sq   Mean Sq F value Pr(>F)
-AgeGroup     1  954191077 954191077  1.1559 0.3137
-Sex          1    8558341   8558341  0.0104 0.9214
-Ethnicity    2  649547218 324773609  0.3934 0.6871
-Residuals    8 6603946441 825493305               
+            Df     Sum Sq    Mean Sq F value  Pr(>F)  
+AgeGroup     1  793005952  793005952  1.0371 0.33509  
+Sex          1  311075346  311075346  0.4068 0.53947  
+Ethnicity    2 7918604879 3959302439  5.1781 0.03187 *
+Residuals    9 6881643108  764627012                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $`Tebupirmphos-oxon`
             Df     Sum Sq    Mean Sq F value Pr(>F)
-AgeGroup     1 9.9845e+09 9.9845e+09  0.3870 0.5536
-Sex          1 4.0133e+10 4.0133e+10  1.5554 0.2525
-Ethnicity    2 8.4277e+10 4.2138e+10  1.6331 0.2618
-Residuals    7 1.8062e+11 2.5803e+10               
+AgeGroup     1 1.0196e+10 1.0196e+10  0.4516 0.5205
+Sex          1 3.9300e+10 3.9300e+10  1.7405 0.2236
+Ethnicity    2 8.5256e+10 4.2628e+10  1.8879 0.2130
+Residuals    8 1.8064e+11 2.2580e+10               
 
 $`Terbufos oxon sulfone`
 
 	Kruskal-Wallis rank sum test
 
 data:  Transformedki by factor(Group)
-Kruskal-Wallis chi-squared = 13.131, df = 9, p-value = 0.1568
+Kruskal-Wallis chi-squared = 13.915, df = 9, p-value = 0.1254
 
 
 $`Terbufos oxon sulfoxide`
@@ -117,6 +121,6 @@ $`Terbufos oxon sulfoxide`
 	Kruskal-Wallis rank sum test
 
 data:  Transformedki by factor(Group)
-Kruskal-Wallis chi-squared = 7.2222, df = 9, p-value = 0.614
+Kruskal-Wallis chi-squared = 5.962, df = 9, p-value = 0.7437
 
 
