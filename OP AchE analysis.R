@@ -40,7 +40,7 @@ Interspecies <- function(dat) {
               # Condition: Both rat and human normally distributed?
               t.test(ki ~ Species, x)$p.value, 
               # Extract p value of the t test
-              ifelse (all(x[, Distr]=="Lognormal"), 
+              ifelse (all(x[, Distr] == "Lognormal"), 
                      # Condition: Both rat and human lognormally distributed
                      t.test(log(ki) ~ Species, x)$p.value,
                      # Extract p value of the t test (log transformed ki)
@@ -102,7 +102,7 @@ dt1 <- sapply(ws, function(s) {
 }, simplify = FALSE, USE.NAMES = TRUE)
 
 #' Assign column names (they are all in row 2) 
-#' Remove the first two rows 
+#' Remove the first row 
 #' Select relevant cols -- "Sample", "Species", "Sex", "Age", "Ethnicity", "ki"
 dt2 <-  lapply(dt1, function(x) { 
   names(x) <- as.character(x[2, ])
@@ -110,7 +110,7 @@ dt2 <-  lapply(dt1, function(x) {
   x[Age == 0, AgeGroup := "Fetal"]
   x[Age >= 18, AgeGroup := "Adult"]
   x <- x[!is.na(Sample), ]
-  x[3:nrow(x), .(Sample, Species, Sex, Age, AgeGroup, Ethnicity, ki)]
+  x[2:nrow(x), .(Sample, Species, Sex, Age, AgeGroup, Ethnicity, ki)]
   })
 
 
@@ -167,9 +167,9 @@ all.dt[!is.na(Mean), ki := Mean]
 
 # Statistical comparisons of the new data set with replicate data in it---------
 all.dt[, .N, by = c("Chemical", "Species")]
-par(mfrow = c(4,4))
 
 ## Normality Q-Q plots
+par(mfrow = c(4,4))
 all.dt[, qqPlot(ki), by = c("Chemical", "Species")]
 all.dt[, plot(density(ki, na.rm = TRUE)), by = c("Chemical", "Species")]
 
